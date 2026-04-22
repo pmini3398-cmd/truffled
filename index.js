@@ -1,3 +1,4 @@
+<script>
 import "dotenv/config";
 import fs from "node:fs";
 import { createServer } from "node:http";
@@ -436,3 +437,4 @@ server.listen(port, () => {
   //optional multiplayer relay server for yomi
   console.log(`Relay running on ws://localhost:${port}/relay/`);
 });
+<script>
